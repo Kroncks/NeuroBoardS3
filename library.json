@@ -35,63 +35,63 @@
   "examples": [
     {
       "name": "1_LED",
-      "base": "examples/1) LED",
+      "base": "examples/01) LED",
       "files": [
         "src/led.cpp"
       ]
     },
     {
       "name": "2_SD",
-      "base": "examples/2) SD",
+      "base": "examples/02) SD",
       "files": [
         "src/sd.cpp"
       ]
     },
     {
       "name": "3_Test_init_camera",
-      "base": "examples/3) Test_init_camera",
+      "base": "examples/03) Test_init_camera",
       "files": [
         "src/test_cam.cpp"
       ]
     },
     {
       "name": "4_Photo",
-      "base": "examples/4) Photo",
+      "base": "examples/04) Photo",
       "files": [
         "src/photo.cpp"
       ]
     },
     {
       "name": "5_Demo_complete",
-      "base": "examples/5) Demo_complete",
+      "base": "examples/05) Demo_complete",
       "files": [
         "src/demo.cpp"
       ]
     },
     {
       "name": "6_OLED",
-      "base": "examples/6) OLED",
+      "base": "examples/06) OLED",
       "files": [
         "src/oled.cpp"
       ]
     },
     {
       "name": "7_Potentiometre",
-      "base": "examples/7) Potentiometre",
+      "base": "examples/07) Potentiometre",
       "files": [
         "src/potentiometre.cpp"
       ]
     },
     {
       "name": "8_Neuro_ISP",
-      "base": "examples/8) Neuro ISP",
+      "base": "examples/08) Neuro ISP",
       "files": [
         "src/neuro_isp.cpp"
       ]
     },
     {
       "name": "9_ATtiny_ISP",
-      "base": "examples/9) ATtiny ISP",
+      "base": "examples/09) ATtiny ISP",
       "files": [
         "src/attiny_isp.cpp"
       ]
