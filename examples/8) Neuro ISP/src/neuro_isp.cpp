@@ -123,13 +123,23 @@ void setup() {
   pinMode(NEURO_ISP_PIN_RESET, OUTPUT);
   digitalWrite(NEURO_ISP_PIN_RESET, HIGH);
 
+  // "chauffe" une fois les pins SCK/MOSI pour absorber le glitch
+  // de première init de la GPIO matrix de l'ESP32-S3
   SPI.begin();
+
+  // puis on les relâche tout de suite pour ne pas gêner le loop() de l'ATtiny
+  pinMode(NEURO_ISP_PIN_MOSI, INPUT);
+  pinMode(NEURO_ISP_PIN_SCK, INPUT);
 
   SERIAL.begin(BAUDRATE);
   while (!SERIAL) {
     delay(10);
   }
   delay(500);
+
+  while (SERIAL.available()) {
+    SERIAL.read();
+  }
 }
 
 int ISPError = 0;
