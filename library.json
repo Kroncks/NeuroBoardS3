@@ -95,6 +95,13 @@
       "files": [
         "src/attiny_isp.cpp"
       ]
+    },
+    {
+      "name": "10_ATtiny_OLED",
+      "base": "examples/10) ATtiny OLED",
+      "files": [
+        "src/attiny_oled.cpp"
+      ]
     }
   ]
 }
