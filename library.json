@@ -49,7 +49,7 @@
     },
     {
       "name": "03_Test_init_camera",
-      "base": "examples/03) Test_init_camera",
+      "base": "examples/03) Test init camera",
       "files": [
         "src/test_cam.cpp"
       ]
@@ -63,7 +63,7 @@
     },
     {
       "name": "05_Demo_complete",
-      "base": "examples/05) Demo_complete",
+      "base": "examples/05) Demo complete",
       "files": [
         "src/demo.cpp"
       ]
