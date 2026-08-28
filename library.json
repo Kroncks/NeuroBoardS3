@@ -102,6 +102,13 @@
       "files": [
         "src/attiny_oled.cpp"
       ]
+    },
+    {
+      "name": "11_Servo_sweep",
+      "base": "examples/11) Servo sweep",
+      "files": [
+        "src/servo_sweep.cpp"
+      ]
     }
   ]
 }
